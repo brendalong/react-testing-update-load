@@ -1,4 +1,4 @@
-# Testing performance load vs update
+# Testing performance of re-load vs update data
 
 When modifying state of an array of objects, is there a difference between getting all data and setting state or just updating state with one adjustment.
 
@@ -31,5 +31,7 @@ This example uses data from Firebase. You will need a firebase collection to run
     allAttractions.push(item);
  });
 ```
+
+Refer to App.js for 3 different examples.
 
 

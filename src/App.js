@@ -41,7 +41,7 @@ class App extends Component {
             // //using object will focus on the state that has changed
             const attractions = { ...this.state.attractions }
             delete attractions[id];
-            this.setState({ attractions }, this.showMe);
+            this.setState({ attractions });
          })
    }
 
